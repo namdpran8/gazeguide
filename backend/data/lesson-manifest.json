@@ -1,0 +1,27 @@
+
+{
+  "lessons": [
+    {
+      "lesson_id": "solar-system-01",
+      "title": "Understanding planetary orbits",
+      "description": "An introductory lesson about planetary orbits.",
+      "asset": "assets/orbits-demo.mp4",
+      "scenes": [
+        {
+          "scene_id": "orbit-scene-02",
+          "timestamp_seconds": 18.5,
+          "title": "Earth orbiting the Sun",
+          "description": "An illustration showing Earth orbiting the Sun.",
+          "objects": [
+            {
+              "id": "earth-orbit",
+              "label": "Earth's orbit",
+              "description": "Earth moves around the Sun under the influence of gravity.",
+              "region": [0.12, 0.1, 0.88, 0.9]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
