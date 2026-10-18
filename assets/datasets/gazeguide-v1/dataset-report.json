@@ -1,0 +1,64 @@
+{
+  "source_dataset": "gazeguide-tv-review-queue-v1",
+  "approval_rule": "review_status=approved and non-empty reviewed_by",
+  "split_policy": "contiguous timestamps: [0%,70%) train, [70%,85%) val, [85%,100%] test",
+  "candidate_frames": 90,
+  "approved_frames": 26,
+  "splits": {
+    "train": {
+      "frames": 17,
+      "instances": 5,
+      "classes": {
+        "earth": 1,
+        "venus": 1,
+        "mercury": 1,
+        "mars": 2
+      }
+    },
+    "val": {
+      "frames": 3,
+      "instances": 3,
+      "classes": {
+        "jupiter": 1,
+        "saturn": 2
+      }
+    },
+    "test": {
+      "frames": 6,
+      "instances": 5,
+      "classes": {
+        "jupiter": 1,
+        "uranus": 2,
+        "sun": 1,
+        "neptune": 1
+      }
+    }
+  },
+  "class_instances": {
+    "sun": 1,
+    "mercury": 1,
+    "venus": 1,
+    "earth": 1,
+    "mars": 2,
+    "jupiter": 2,
+    "saturn": 2,
+    "uranus": 2,
+    "neptune": 1
+  },
+  "cross_split_near_duplicates": [],
+  "excluded": {
+    "rejected": 30,
+    "pending": 34
+  },
+  "insufficient_classes": [
+    "sun",
+    "mercury",
+    "venus",
+    "earth",
+    "mars",
+    "jupiter",
+    "saturn",
+    "uranus",
+    "neptune"
+  ]
+}

@@ -1,4 +1,3 @@
-
 import json
 import logging
 
@@ -117,7 +116,6 @@ fences or any fields beyond those listed.
         data = json.loads(text)
         result = ExplainResponse.model_validate(data)
 
-        # The model must not decide whether it used a fallback.
         result.fallback = False
         return result
 

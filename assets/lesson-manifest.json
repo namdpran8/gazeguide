@@ -1,0 +1,108 @@
+{
+  "lessons": [
+    {
+      "lesson_id": "solar-system-01",
+      "title": "Understanding planetary orbits",
+      "description": "An introductory lesson about planetary orbits.",
+      "asset": "assets/orbits-demo.mp4",
+      "scenes": [
+        {
+          "scene_id": "orbit-scene-01",
+          "timestamp_seconds": 5.0,
+          "title": "The Solar System and Planetary Orbits",
+          "description": "An introductory overview of the solar system showing the central Sun and concentric planetary tracks.",
+          "objects": [
+            {
+              "id": "sun",
+              "label": "The Sun",
+              "description": "The massive star at the center of the solar system whose gravitational pull anchors the planetary orbits.",
+              "region": [0.45, 0.42, 0.55, 0.58]
+            },
+            {
+              "id": "inner-orbits",
+              "label": "Inner Planetary Orbits",
+              "description": "The concentric orbital pathways traversed by the inner rocky planets revolving around the Sun.",
+              "region": [0.25, 0.35, 0.75, 0.75]
+            },
+            {
+              "id": "earth-orbit",
+              "label": "Earth's Orbital Path",
+              "description": "The elliptical trajectory that Earth travels around the Sun once every 365.25 days.",
+              "region": [0.15, 0.28, 0.85, 0.85]
+            },
+            {
+              "id": "outer-orbit-boundary",
+              "label": "Outer Planetary Orbits",
+              "description": "The wider orbital boundary where outer gas giant planets revolve at greater distances from the Sun.",
+              "region": [0.08, 0.2, 0.92, 0.92]
+            }
+          ]
+        },
+        {
+          "scene_id": "orbit-scene-02",
+          "timestamp_seconds": 18.5,
+          "title": "Earth orbiting the Sun",
+          "description": "An illustration showing Earth orbiting the Sun.",
+          "objects": [
+            {
+              "id": "earth-orbit",
+              "label": "Earth's orbit",
+              "description": "Earth moves around the Sun under the influence of gravity.",
+              "region": [0.33, 0.28, 0.67, 0.82]
+            },
+            {
+              "id": "sun",
+              "label": "The Sun",
+              "description": "The central star whose gravitational force continuously accelerates Earth towards the center, curving its trajectory.",
+              "region": [0.46, 0.41, 0.55, 0.57]
+            },
+            {
+              "id": "earth",
+              "label": "Planet Earth",
+              "description": "Our home planet in steady orbital revolution around the Sun.",
+              "region": [0.33, 0.48, 0.37, 0.54]
+            },
+            {
+              "id": "inner-orbit",
+              "label": "Inner Planet Orbit",
+              "description": "An inner orbital track closer to the Sun with higher orbital velocity.",
+              "region": [0.38, 0.34, 0.62, 0.73]
+            }
+          ]
+        },
+        {
+          "scene_id": "orbit-scene-03",
+          "timestamp_seconds": 25.0,
+          "title": "Orbital Mechanics and Gravitational Motion",
+          "description": "A detailed view illustrating how gravitational pull balances forward momentum across orbital tracks.",
+          "objects": [
+            {
+              "id": "sun",
+              "label": "The Sun",
+              "description": "The central gravitational mass providing centripetal acceleration to all orbiting bodies in the system.",
+              "region": [0.47, 0.45, 0.56, 0.54]
+            },
+            {
+              "id": "earth-orbit",
+              "label": "Earth's Orbit",
+              "description": "The intermediate elliptical path demonstrating Keplerian orbital motion.",
+              "region": [0.21, 0.32, 0.81, 0.85]
+            },
+            {
+              "id": "inner-orbit",
+              "label": "Inner Orbit Ellipse",
+              "description": "The tighter orbital loop experiencing stronger gravitational acceleration from the Sun.",
+              "region": [0.33, 0.38, 0.68, 0.7]
+            },
+            {
+              "id": "outer-body",
+              "label": "Outer Orbiting Body",
+              "description": "A celestial body navigating the outer region of the orbital plane.",
+              "region": [0.76, 0.71, 0.85, 0.82]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

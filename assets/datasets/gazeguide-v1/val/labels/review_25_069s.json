@@ -1,0 +1,17 @@
+{
+  "frame_id": "review-067",
+  "timestamp_seconds": 25.069,
+  "annotations": [
+    {
+      "annotation_id": "review-1792298628208-1",
+      "class": "saturn",
+      "bbox": [
+        0.6869595361834914,
+        0.7408915815419111,
+        0.7672085727052518,
+        0.879717449482142
+      ],
+      "source": "human_review"
+    }
+  ]
+}

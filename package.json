@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -rf node_modules buildinfo.json dist build",
     "start": "react-native start",
+    "postinstall": "node scripts/patch-kepler.js",
     "test": "jest --colors ",
     "test:snapshot": "jest --colors --updateSnapshot",
     "lint": "eslint src test package.json --ext .ts,.tsx",

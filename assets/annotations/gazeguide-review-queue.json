@@ -1,0 +1,649 @@
+{
+  "schema_version": 1,
+  "dataset_name": "gazeguide-tv-review-queue-v1",
+  "coordinate_format": "normalized_xyxy",
+  "classes": [
+    "sun",
+    "mercury",
+    "venus",
+    "earth",
+    "mars",
+    "jupiter",
+    "saturn",
+    "uranus",
+    "neptune"
+  ],
+  "review_policy": "Annotate only visually identifiable Sun or individual planets. Never annotate orbital paths, labels, or asteroid particles. Do not infer a planet identity.",
+  "frames": [
+    {
+      "frame_id": "review-000",
+      "file_name": "review_00_000s.jpg",
+      "timestamp_seconds": 0.0,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-001",
+      "file_name": "review_00_374s.jpg",
+      "timestamp_seconds": 0.374,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-002",
+      "file_name": "review_00_748s.jpg",
+      "timestamp_seconds": 0.748,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-003",
+      "file_name": "review_01_122s.jpg",
+      "timestamp_seconds": 1.122,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-004",
+      "file_name": "review_01_497s.jpg",
+      "timestamp_seconds": 1.497,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-005",
+      "file_name": "review_01_871s.jpg",
+      "timestamp_seconds": 1.871,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-006",
+      "file_name": "review_02_245s.jpg",
+      "timestamp_seconds": 2.245,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-007",
+      "file_name": "review_02_619s.jpg",
+      "timestamp_seconds": 2.619,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-008",
+      "file_name": "review_02_993s.jpg",
+      "timestamp_seconds": 2.993,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-009",
+      "file_name": "review_03_367s.jpg",
+      "timestamp_seconds": 3.367,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-010",
+      "file_name": "review_03_742s.jpg",
+      "timestamp_seconds": 3.742,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-011",
+      "file_name": "review_04_116s.jpg",
+      "timestamp_seconds": 4.116,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-012",
+      "file_name": "review_04_490s.jpg",
+      "timestamp_seconds": 4.49,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-013",
+      "file_name": "review_04_864s.jpg",
+      "timestamp_seconds": 4.864,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-014",
+      "file_name": "review_05_238s.jpg",
+      "timestamp_seconds": 5.238,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-015",
+      "file_name": "review_05_612s.jpg",
+      "timestamp_seconds": 5.612,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-016",
+      "file_name": "review_05_987s.jpg",
+      "timestamp_seconds": 5.987,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-017",
+      "file_name": "review_06_361s.jpg",
+      "timestamp_seconds": 6.361,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-018",
+      "file_name": "review_06_735s.jpg",
+      "timestamp_seconds": 6.735,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-019",
+      "file_name": "review_07_109s.jpg",
+      "timestamp_seconds": 7.109,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-020",
+      "file_name": "review_07_483s.jpg",
+      "timestamp_seconds": 7.483,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-021",
+      "file_name": "review_07_857s.jpg",
+      "timestamp_seconds": 7.857,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-022",
+      "file_name": "review_08_231s.jpg",
+      "timestamp_seconds": 8.231,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-023",
+      "file_name": "review_08_606s.jpg",
+      "timestamp_seconds": 8.606,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-024",
+      "file_name": "review_08_980s.jpg",
+      "timestamp_seconds": 8.98,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-025",
+      "file_name": "review_09_354s.jpg",
+      "timestamp_seconds": 9.354,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-026",
+      "file_name": "review_09_728s.jpg",
+      "timestamp_seconds": 9.728,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-027",
+      "file_name": "review_10_102s.jpg",
+      "timestamp_seconds": 10.102,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-028",
+      "file_name": "review_10_476s.jpg",
+      "timestamp_seconds": 10.476,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-029",
+      "file_name": "review_10_851s.jpg",
+      "timestamp_seconds": 10.851,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-030",
+      "file_name": "review_11_225s.jpg",
+      "timestamp_seconds": 11.225,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-031",
+      "file_name": "review_11_599s.jpg",
+      "timestamp_seconds": 11.599,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-032",
+      "file_name": "review_11_973s.jpg",
+      "timestamp_seconds": 11.973,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-033",
+      "file_name": "review_12_347s.jpg",
+      "timestamp_seconds": 12.347,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-034",
+      "file_name": "review_12_721s.jpg",
+      "timestamp_seconds": 12.721,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-035",
+      "file_name": "review_13_096s.jpg",
+      "timestamp_seconds": 13.096,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-036",
+      "file_name": "review_13_470s.jpg",
+      "timestamp_seconds": 13.47,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-037",
+      "file_name": "review_13_844s.jpg",
+      "timestamp_seconds": 13.844,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-038",
+      "file_name": "review_14_218s.jpg",
+      "timestamp_seconds": 14.218,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-039",
+      "file_name": "review_14_592s.jpg",
+      "timestamp_seconds": 14.592,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-040",
+      "file_name": "review_14_966s.jpg",
+      "timestamp_seconds": 14.966,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-041",
+      "file_name": "review_15_340s.jpg",
+      "timestamp_seconds": 15.34,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-042",
+      "file_name": "review_15_715s.jpg",
+      "timestamp_seconds": 15.715,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-043",
+      "file_name": "review_16_089s.jpg",
+      "timestamp_seconds": 16.089,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-044",
+      "file_name": "review_16_463s.jpg",
+      "timestamp_seconds": 16.463,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-045",
+      "file_name": "review_16_837s.jpg",
+      "timestamp_seconds": 16.837,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-046",
+      "file_name": "review_17_211s.jpg",
+      "timestamp_seconds": 17.211,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-047",
+      "file_name": "review_17_585s.jpg",
+      "timestamp_seconds": 17.585,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-048",
+      "file_name": "review_17_960s.jpg",
+      "timestamp_seconds": 17.96,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-049",
+      "file_name": "review_18_334s.jpg",
+      "timestamp_seconds": 18.334,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-050",
+      "file_name": "review_18_708s.jpg",
+      "timestamp_seconds": 18.708,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-051",
+      "file_name": "review_19_082s.jpg",
+      "timestamp_seconds": 19.082,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-052",
+      "file_name": "review_19_456s.jpg",
+      "timestamp_seconds": 19.456,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-053",
+      "file_name": "review_19_830s.jpg",
+      "timestamp_seconds": 19.83,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-054",
+      "file_name": "review_20_204s.jpg",
+      "timestamp_seconds": 20.204,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-055",
+      "file_name": "review_20_579s.jpg",
+      "timestamp_seconds": 20.579,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-056",
+      "file_name": "review_20_953s.jpg",
+      "timestamp_seconds": 20.953,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-057",
+      "file_name": "review_21_327s.jpg",
+      "timestamp_seconds": 21.327,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-058",
+      "file_name": "review_21_701s.jpg",
+      "timestamp_seconds": 21.701,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-059",
+      "file_name": "review_22_075s.jpg",
+      "timestamp_seconds": 22.075,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-060",
+      "file_name": "review_22_449s.jpg",
+      "timestamp_seconds": 22.449,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-061",
+      "file_name": "review_22_824s.jpg",
+      "timestamp_seconds": 22.824,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-062",
+      "file_name": "review_23_198s.jpg",
+      "timestamp_seconds": 23.198,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-063",
+      "file_name": "review_23_572s.jpg",
+      "timestamp_seconds": 23.572,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-064",
+      "file_name": "review_23_946s.jpg",
+      "timestamp_seconds": 23.946,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-065",
+      "file_name": "review_24_320s.jpg",
+      "timestamp_seconds": 24.32,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-066",
+      "file_name": "review_24_694s.jpg",
+      "timestamp_seconds": 24.694,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-067",
+      "file_name": "review_25_069s.jpg",
+      "timestamp_seconds": 25.069,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-068",
+      "file_name": "review_25_443s.jpg",
+      "timestamp_seconds": 25.443,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-069",
+      "file_name": "review_25_817s.jpg",
+      "timestamp_seconds": 25.817,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-070",
+      "file_name": "review_26_191s.jpg",
+      "timestamp_seconds": 26.191,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-071",
+      "file_name": "review_26_565s.jpg",
+      "timestamp_seconds": 26.565,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-072",
+      "file_name": "review_26_939s.jpg",
+      "timestamp_seconds": 26.939,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-073",
+      "file_name": "review_27_313s.jpg",
+      "timestamp_seconds": 27.313,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-074",
+      "file_name": "review_27_688s.jpg",
+      "timestamp_seconds": 27.688,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-075",
+      "file_name": "review_28_062s.jpg",
+      "timestamp_seconds": 28.062,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-076",
+      "file_name": "review_28_436s.jpg",
+      "timestamp_seconds": 28.436,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-077",
+      "file_name": "review_28_810s.jpg",
+      "timestamp_seconds": 28.81,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-078",
+      "file_name": "review_29_184s.jpg",
+      "timestamp_seconds": 29.184,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-079",
+      "file_name": "review_29_558s.jpg",
+      "timestamp_seconds": 29.558,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-080",
+      "file_name": "review_29_933s.jpg",
+      "timestamp_seconds": 29.933,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-081",
+      "file_name": "review_30_307s.jpg",
+      "timestamp_seconds": 30.307,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-082",
+      "file_name": "review_30_681s.jpg",
+      "timestamp_seconds": 30.681,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-083",
+      "file_name": "review_31_055s.jpg",
+      "timestamp_seconds": 31.055,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-084",
+      "file_name": "review_31_429s.jpg",
+      "timestamp_seconds": 31.429,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-085",
+      "file_name": "review_31_803s.jpg",
+      "timestamp_seconds": 31.803,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-086",
+      "file_name": "review_32_178s.jpg",
+      "timestamp_seconds": 32.178,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-087",
+      "file_name": "review_32_552s.jpg",
+      "timestamp_seconds": 32.552,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-088",
+      "file_name": "review_32_926s.jpg",
+      "timestamp_seconds": 32.926,
+      "review_status": "pending",
+      "annotations": []
+    },
+    {
+      "frame_id": "review-089",
+      "file_name": "review_33_300s.jpg",
+      "timestamp_seconds": 33.3,
+      "review_status": "pending",
+      "annotations": []
+    }
+  ]
+}

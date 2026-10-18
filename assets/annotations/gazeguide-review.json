@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "dataset_name": "gazeguide-tv-annotation-review",
+  "coordinate_format": "normalized_xyxy",
+  "classes": ["sun", "mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"],
+  "review_policy": "Annotate only visually identifiable Sun or individual planets. Never annotate orbital paths, labels, or asteroid particles. Do not infer a planet identity from position, colour, or an orbital path alone.",
+  "frames": [
+    {"frame_id": "frame-02-000", "file_name": "frame_02_000s.jpg", "timestamp_seconds": 2.0, "review_status": "pending", "annotations": []},
+    {"frame_id": "frame-05-000", "file_name": "frame_5_000s.jpg", "timestamp_seconds": 5.0, "review_status": "pending", "annotations": [{"annotation_id": "legacy-sun-05", "class": "sun", "bbox": [0.45, 0.42, 0.55, 0.58], "source": "legacy_manifest_provisional"}]},
+    {"frame_id": "frame-10-000", "file_name": "frame_10_000s.jpg", "timestamp_seconds": 10.0, "review_status": "pending", "annotations": []},
+    {"frame_id": "frame-18-500", "file_name": "frame_18_500s.jpg", "timestamp_seconds": 18.5, "review_status": "pending", "annotations": [{"annotation_id": "legacy-sun-18-5", "class": "sun", "bbox": [0.46, 0.41, 0.55, 0.57], "source": "legacy_manifest_provisional"}, {"annotation_id": "legacy-earth-18-5", "class": "earth", "bbox": [0.33, 0.48, 0.37, 0.54], "source": "legacy_manifest_provisional"}]},
+    {"frame_id": "frame-25-000", "file_name": "frame_25_000s.jpg", "timestamp_seconds": 25.0, "review_status": "pending", "annotations": [{"annotation_id": "legacy-sun-25", "class": "sun", "bbox": [0.47, 0.45, 0.56, 0.54], "source": "legacy_manifest_provisional"}]}
+  ]
+}

@@ -1,13 +1,35 @@
 import React, {useState} from 'react';
-import {StyleSheet, Text, ImageBackground, View, Image} from 'react-native';
+import {
+  Image,
+  ImageBackground,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 import {TVFocusGuideView} from '@amazon-devices/react-native-kepler';
 import {Tile} from './components/Tile';
 import {tiles} from './data/tiles';
+import {OrbitSceneView} from './scenes/OrbitSceneView';
 
-export const App = () => {
+export interface AppProps {
+  initialView?: 'scene' | 'tiles';
+}
+
+export const App: React.FC<AppProps> = ({initialView = 'scene'}) => {
+  const [currentView, setCurrentView] = useState<'scene' | 'tiles'>(initialView);
   const [focusedTileId, setFocusedTileId] = useState<string>('home');
 
   const focusedTile = tiles.find((t) => t.id === focusedTileId);
+
+  if (currentView === 'scene') {
+    return (
+      <OrbitSceneView
+        onBack={() => setCurrentView('tiles')}
+        testID="app-scene-view"
+      />
+    );
+  }
 
   return (
     <ImageBackground
@@ -17,10 +39,24 @@ export const App = () => {
         {focusedTileId === 'home' ? (
           <>
             <View style={styles.headerTextContainer}>
-              <Text style={styles.headerTitle}>Hello Vega,</Text>
+              <Text style={styles.headerTitle}>GazeGuide TV</Text>
               <Text style={styles.headerSubtitle}>
-                Use your remote to explore and start your Vega journey 🚀
+                AI-Powered Interactive Science on your Big Screen 🪐
               </Text>
+              <Pressable
+                style={({focused}) => [
+                  styles.launchLessonButton,
+                  focused && styles.launchLessonButtonFocused,
+                ]}
+                onPress={() => setCurrentView('scene')}
+                hasTVPreferredFocus={true}
+                accessibilityRole="button"
+                accessibilityLabel="Launch Solar System Lesson"
+                testID="btn-launch-lesson">
+                <Text style={styles.launchLessonText}>
+                  ▶ Resume Solar System Lesson
+                </Text>
+              </Pressable>
             </View>
             <Image
               source={require('./assets/vega.png')}
@@ -54,7 +90,7 @@ export const App = () => {
             onBlur={() => {}}
             testID={`tile-${tile.id}`}
             accessibilityLabel={tile.accessibilityLabel}
-            hasTVPreferredFocus={tile.id === 'home'}
+            hasTVPreferredFocus={false}
           />
         ))}
       </TVFocusGuideView>
@@ -79,15 +115,38 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     color: '#FFFFFF',
-    fontSize: 64,
-    lineHeight: 72,
-    fontWeight: '600',
+    fontSize: 56,
+    lineHeight: 64,
+    fontWeight: '700',
     flexShrink: 1,
   },
   headerSubtitle: {
-    color: '#FFFFFF',
-    fontSize: 24,
+    color: '#DDF4FF',
+    fontSize: 22,
+    lineHeight: 30,
+    marginTop: 8,
+    marginBottom: 20,
     flexShrink: 1,
+  },
+  launchLessonButton: {
+    alignSelf: 'flex-start',
+    backgroundColor: '#FF6200',
+    paddingHorizontal: 24,
+    paddingVertical: 12,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: '#FFFFFF',
+  },
+  launchLessonButtonFocused: {
+    backgroundColor: '#FF8533',
+    borderColor: '#FFFFFF',
+    transform: [{scale: 1.08}],
+    elevation: 8,
+  },
+  launchLessonText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
   },
   vegaLogo: {
     width: 280,

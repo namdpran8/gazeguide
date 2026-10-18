@@ -1,8 +1,11 @@
-fastapi
+fastapi==0.143.3
+starlette==1.8.0
 uvicorn[standard]
 pydantic
 pydantic-settings
 boto3
 python-dotenv
+opencv-python
+numpy
 pytest
 httpx

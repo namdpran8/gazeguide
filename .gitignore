@@ -7,6 +7,17 @@
 
 dist
 build
+generated/
+scratch/
 node_modules
 CMakeUserPresets.json
 npm-debug.log
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Generated annotation-review HTML containing embedded Base64 frames
+assets/annotations/*.html
